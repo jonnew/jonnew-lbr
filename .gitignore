@@ -1,3 +1,11 @@
+# Ignore all files
 *
+
+# But not these file types
 !*.lbr
+!*.dru
+!*.cam
 !.gitignore
+
+# ... even if they are in subdirs
+!*/
