@@ -2,9 +2,15 @@
 *
 
 # But not these file types
+
+# Eagle stuff
 !*.lbr
 !*.dru
 !*.cam
+
+# Solidworks sheet format
+!*.slddrt
+
 !.gitignore
 
 # ... even if they are in subdirs
