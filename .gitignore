@@ -3,6 +3,9 @@
 
 # But not these file types
 
+# Altium stuff
+!*.RUL
+
 # Eagle stuff
 !*.lbr
 !*.dru
