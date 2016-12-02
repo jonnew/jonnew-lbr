@@ -5,6 +5,8 @@
 
 # Altium stuff
 !*.RUL
+!*.SchLib
+!*.PcbLib
 
 # Eagle stuff
 !*.lbr
