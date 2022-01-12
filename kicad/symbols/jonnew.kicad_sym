@@ -1,4 +1,56 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "+2.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+2.3V" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Power symbol creates a global label with name \"+5V5\"" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "+2.3V_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "+2.3V_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+2V3" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
   (symbol "+5V5" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1432,11 +1484,11 @@
         (name "VCCAUX" (effects (font (size 1.27 1.27))))
         (number "D6" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 26.67 0 180) (length 5.08) hide
+      (pin passive line (at 26.67 0 180) (length 5.08) hide
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "E4" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 26.67 -93.98 180) (length 5.08) hide
+      (pin passive line (at 26.67 -93.98 180) (length 5.08) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "E5" (effects (font (size 1.27 1.27))))
       )
@@ -1456,7 +1508,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "F5" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 26.67 -91.44 180) (length 5.08) hide
+      (pin passive line (at 26.67 -91.44 180) (length 5.08) hide
         (name "VCCIO2" (effects (font (size 1.27 1.27))))
         (number "F6" (effects (font (size 1.27 1.27))))
       )
@@ -1802,11 +1854,11 @@
         (name "LVDSEn" (effects (font (size 1.4986 1.4986))))
         (number "26" (effects (font (size 1.4986 1.4986))))
       )
-      (pin power_in line (at -20.32 17.78 0) (length 5.08) hide
+      (pin passive line (at -20.32 17.78 0) (length 5.08) hide
         (name "VDD" (effects (font (size 1.4986 1.4986))))
         (number "27" (effects (font (size 1.4986 1.4986))))
       )
-      (pin power_in line (at -20.32 17.78 0) (length 5.08) hide
+      (pin passive line (at -20.32 17.78 0) (length 5.08) hide
         (name "VDD" (effects (font (size 1.4986 1.4986))))
         (number "28" (effects (font (size 1.4986 1.4986))))
       )
@@ -1882,11 +1934,11 @@
         (name "Elec0" (effects (font (size 1.4986 1.4986))))
         (number "44" (effects (font (size 1.4986 1.4986))))
       )
-      (pin power_in line (at -20.32 2.54 0) (length 5.08) hide
+      (pin passive line (at -20.32 2.54 0) (length 5.08) hide
         (name "VSSStim" (effects (font (size 1.4986 1.4986))))
         (number "45" (effects (font (size 1.4986 1.4986))))
       )
-      (pin power_in line (at -20.32 2.54 0) (length 5.08) hide
+      (pin passive line (at -20.32 2.54 0) (length 5.08) hide
         (name "VSSStim" (effects (font (size 1.4986 1.4986))))
         (number "5" (effects (font (size 1.4986 1.4986))))
       )
@@ -1894,7 +1946,7 @@
         (name "VDDStim" (effects (font (size 1.4986 1.4986))))
         (number "6" (effects (font (size 1.4986 1.4986))))
       )
-      (pin power_in line (at -20.32 10.16 0) (length 5.08) hide
+      (pin passive line (at -20.32 10.16 0) (length 5.08) hide
         (name "VDDStim" (effects (font (size 1.4986 1.4986))))
         (number "7" (effects (font (size 1.4986 1.4986))))
       )
@@ -2136,6 +2188,60 @@
       )
     )
   )
+  (symbol "TPS8269xxxSIPR" (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -11.43 19.685 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TPS8269xxxSIPR" (id 1) (at -11.43 17.78 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "jonnew:TI_SIP0009B" (id 2) (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at -90.17 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "TPS8269xxxSIPR_0_1"
+      (rectangle (start -11.43 16.51) (end 12.7 -16.51)
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+    )
+    (symbol "TPS8269xxxSIPR_1_1"
+      (pin power_out line (at 17.78 11.43 180) (length 5.08)
+        (name "VOUT" (effects (font (size 1.4986 1.4986))))
+        (number "A1" (effects (font (size 1.4986 1.4986))))
+      )
+      (pin power_in line (at -16.51 11.43 0) (length 5.08)
+        (name "VIN" (effects (font (size 1.4986 1.4986))))
+        (number "A2" (effects (font (size 1.4986 1.4986))))
+      )
+      (pin power_in line (at -16.51 11.43 0) (length 5.08) hide
+        (name "VIN" (effects (font (size 1.4986 1.4986))))
+        (number "A3" (effects (font (size 1.4986 1.4986))))
+      )
+      (pin input line (at -16.51 3.81 0) (length 5.08)
+        (name "MODE" (effects (font (size 1.4986 1.4986))))
+        (number "B1" (effects (font (size 1.4986 1.4986))))
+      )
+      (pin input line (at -16.51 -3.81 0) (length 5.08)
+        (name "EN" (effects (font (size 1.4986 1.4986))))
+        (number "B2" (effects (font (size 1.4986 1.4986))))
+      )
+      (pin power_in line (at -16.51 -11.43 0) (length 5.08)
+        (name "GND" (effects (font (size 1.4986 1.4986))))
+        (number "C1" (effects (font (size 1.4986 1.4986))))
+      )
+      (pin power_in line (at -16.51 -11.43 0) (length 5.08) hide
+        (name "GND" (effects (font (size 1.4986 1.4986))))
+        (number "C2" (effects (font (size 1.4986 1.4986))))
+      )
+      (pin power_in line (at -16.51 -11.43 0) (length 5.08) hide
+        (name "GND" (effects (font (size 1.4986 1.4986))))
+        (number "C3" (effects (font (size 1.4986 1.4986))))
+      )
+    )
+  )
   (symbol "W25Q80EWBYIG" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 5.08 12.7 0)
       (effects (font (size 1.27 1.27)))
@@ -2314,11 +2420,11 @@
       )
     )
   )
-  (symbol "XCL22x" (in_bom yes) (on_board yes)
+  (symbol "XCL223_4" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 14.605 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "XCL22x" (id 1) (at -7.62 12.7 0)
+    (property "Value" "XCL223_4" (id 1) (at -7.62 12.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 8.89 13.97 0)
@@ -2327,13 +2433,13 @@
     (property "Datasheet" "" (id 3) (at 8.89 13.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "XCL22x_0_1"
+    (symbol "XCL223_4_0_1"
       (rectangle (start -7.62 11.43) (end 7.62 -11.43)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type background))
       )
     )
-    (symbol "XCL22x_1_1"
+    (symbol "XCL223_4_1_1"
       (pin power_in line (at 10.16 2.54 180) (length 2.54)
         (name "PGND" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
