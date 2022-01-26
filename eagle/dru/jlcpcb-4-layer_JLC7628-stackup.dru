@@ -1,6 +1,6 @@
 description[de] = <b>EAGLE Design Rules</b>\n<p>\nDie Standard-Design-Rules sind so gewählt, dass sie für \ndie meisten Anwendungen passen. Sollte ihre Platine \nbesondere Anforderungen haben, treffen Sie die erforderlichen\nEinstellungen hier und speichern die Design Rules unter \neinem neuen Namen ab.
 description[en] = <b>JLCPCB  4-layer Design Rules</b>\n<p>\nJLC7628 Stackup\n
-layerSetup = (1+2*15+16)
+layerSetup = (1+2*3+16)
 mtCopper = 0.035mm 0.0175mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0175mm 0.035mm
 mtIsolate = 0.2mm 1.065mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2mm
 mdWireWire = 3.5mil
