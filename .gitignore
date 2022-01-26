@@ -13,10 +13,21 @@
 !*.dru
 !*.cam
 
+# KiCAD stuff
+!*.kicad_mod
+!*.sldprt
+!*.sldasm
+!*.step
+!*.kicad-wks
+!*.kicad_sym
+
 # Solidworks sheet format
 !*.slddrt
 
+# This file
 !.gitignore
 
 # ... even if they are in subdirs
 !*/
+
+
