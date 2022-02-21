@@ -1,6 +1,6 @@
 (footprint "LATTICE_ufcBGA64C40P8X8_3.5X3.5X1.0" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61DD7EDC)
+  (tedit 620FE620)
   (descr "64-Ball ucfBGA Package-1")
   (tags "Integrated Circuit")
   (attr smd)

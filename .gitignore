@@ -24,6 +24,11 @@
 # Solidworks sheet format
 !*.slddrt
 
+# Images
+!*.svg
+!*.png
+!*.jpg
+
 # This file
 !.gitignore
 
