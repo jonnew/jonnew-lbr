@@ -1,6 +1,6 @@
 (footprint "HIROSE_DF40C70DP04V51" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61E0CD45)
+  (tedit 632B2986)
   (descr "DF40C-70DP-0.4V(51)-1")
   (tags "Connector")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp e62868a4-8389-46c4-ad4c-bb51e21ee462)
   )
-  (fp_text value "HIROSE_DF40C70DP04V51" (at 0 0) (layer "F.SilkS") hide
+  (fp_text value "HIROSE_DF40C70DP04V51" (at -0.2 -3.8) (layer "F.SilkS") hide
     (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp 83631810-2fa7-41de-b47e-733513e3cf53)
   )
@@ -23,6 +23,7 @@
   (fp_line (start 7.76 0.925) (end -7.76 0.925) (layer "F.Fab") (width 0.2) (tstamp 3cfcebf3-91b9-48cc-b380-ecd352d7d764))
   (fp_line (start -7.76 -0.925) (end 7.76 -0.925) (layer "F.Fab") (width 0.2) (tstamp 4acf643f-6276-4058-9b9c-43fbe385c4e7))
   (fp_line (start -7.76 0.925) (end -7.76 -0.925) (layer "F.Fab") (width 0.2) (tstamp 6a3f9219-ca42-40c1-ac0c-3514bd0b46bd))
+  (fp_circle (center -6.8 1.4) (end -6.7 1.4) (layer "F.Fab") (width 0.1) (fill solid) (tstamp 29e430ed-6efc-4759-a57c-4333fbbd8b03))
   (pad "1" smd rect (at -6.8 1.355) (size 0.23 0.66) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 49d8c6ac-67f6-40f5-8fd4-7a25b2cb36e4))
   (pad "2" smd rect (at -6.8 -1.355) (size 0.23 0.66) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0cdaaa77-a2d7-4135-ac30-d31762daabe7))
   (pad "3" smd rect (at -6.4 1.355) (size 0.23 0.66) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 639fda25-19c2-4900-90f9-352559cd2381))
