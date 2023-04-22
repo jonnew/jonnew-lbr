@@ -15,7 +15,7 @@
   )
   (fp_line (start -0.475 -0.45) (end -0.475 -0.45)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 31aae394-7208-4a1f-9443-b287b6721d85))
-  (fp_rect (start -0.475 -0.4504) (end 0.475 0.45)
+  (fp_rect (start -0.525 -0.5004) (end 0.525 0.5)
     (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 657a5b2f-603d-45aa-95b8-5eae767e9436))
   (fp_poly
     (pts
