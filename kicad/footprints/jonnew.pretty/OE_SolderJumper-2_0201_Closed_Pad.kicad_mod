@@ -3,6 +3,7 @@
   (descr "SMD Solder Jumper, 0201, 0.12mm gap")
   (tags "solder jumper open")
   (attr exclude_from_pos_files exclude_from_bom)
+  (net_tie_pad_groups "1,2")
   (fp_text reference "REF**" (at 0 -1.2) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 38cf5263-db92-48aa-b3ff-1f600d01f771)
