@@ -20,6 +20,7 @@
 !*.step
 !*.kicad-wks
 !*.kicad_sym
+!*.kicad_wks
 
 # Solidworks sheet format
 !*.slddrt

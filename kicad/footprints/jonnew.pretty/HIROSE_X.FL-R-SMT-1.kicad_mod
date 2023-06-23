@@ -30,6 +30,8 @@
     (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp e9d9b24f-7ef3-4e0b-9c3e-0dc7d9830d91))
   (fp_rect (start -1 -1) (end 1 1)
     (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab") (tstamp ab5fcd53-3f8e-4ccd-bc56-3c897846843d))
+  (fp_circle (center 0 0.7) (end 0.1 0.8)
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab") (tstamp 12421d3a-4458-4eff-b3ed-d1e6ac067c96))
   (pad "1" smd rect (at 0 0.975 180) (size 0.5 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c46a3c8b-35e0-4b6b-8c60-7b658a09b5c8))
   (pad "2" smd rect (at -1 0 90) (size 1.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 992ed0c7-ddb4-4ee4-b7bf-07848b48a904))
   (pad "2" smd rect (at 0 -1.025 180) (size 0.5 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 02f7cd38-e80c-4cea-990c-b710e96f02a9))
