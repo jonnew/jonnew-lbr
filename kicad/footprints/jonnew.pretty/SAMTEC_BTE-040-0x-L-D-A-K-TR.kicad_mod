@@ -763,6 +763,18 @@
 		)
 	)
 	(model "${JONNEW_3DMODEL_DIR}/SAMTEC_BTE-040-02-F-D-A.STEP"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "${JONNEW_3DMODEL_DIR}/SAMTEC_BTE-040-03-L-D-A.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
