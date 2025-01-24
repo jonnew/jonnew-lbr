@@ -1,4 +1,4 @@
-(footprint "ONSEMI_567JZ_WLCSP4-0.64x0.64"
+(footprint "MICROCHIP_WLCSP4-0.7x0.7"
 	(version 20241129)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "ONSEMI_567JZ_WLCSP4-0.64x0.64"
+	(property "Value" "MICROCHIP_WLCSP4-0.7x0.7"
 		(at -0.17 -2.63 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ea037065-c6f5-499e-b5e8-c5c9ff417c0b")
+		(uuid "4b2b6ba2-9967-41f4-9f6c-869859713cf4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -110,26 +110,26 @@
 		)
 	)
 	(pad "A1" smd circle
-		(at -0.175 -0.175)
-		(size 0.2 0.2)
+		(at -0.2 -0.2)
+		(size 0.18 0.18)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3e106ce8-eb2e-4fa5-a233-61729d7ba69b")
 	)
 	(pad "A2" smd circle
-		(at 0.175 -0.175)
-		(size 0.2 0.2)
+		(at 0.175 -0.2)
+		(size 0.18 0.18)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "169af422-4685-4ea6-85d4-0a7bc9a554bf")
 	)
 	(pad "B1" smd circle
-		(at -0.175 0.175)
-		(size 0.2 0.2)
+		(at -0.2 0.2)
+		(size 0.18 0.18)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "73ef69ee-4883-4d76-9546-3285f56cc425")
 	)
 	(pad "B2" smd circle
-		(at 0.175 0.175)
-		(size 0.2 0.2)
+		(at 0.175 0.2)
+		(size 0.18 0.18)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "785bc5a5-a994-440b-98d8-30374fd927e5")
 	)
