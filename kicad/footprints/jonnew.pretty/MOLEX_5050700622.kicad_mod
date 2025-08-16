@@ -1,7 +1,7 @@
 (footprint "MOLEX_5050700622"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "13fa436f-dee6-47f0-be04-0a7de893a420")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "7344496e-607f-4989-bed0-8a6da5bfd59b")
 	)
@@ -82,7 +72,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "e152be7f-b8bd-41c6-8d84-f868f133765f")
 	)
@@ -101,70 +91,70 @@
 	(pad "1" smd roundrect
 		(at -0.35 0.91)
 		(size 0.18 0.485)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(uuid "39f65f62-d48a-4aa3-a9a3-c17d058105fe")
 	)
 	(pad "2" smd roundrect
 		(at -0.35 -0.91)
 		(size 0.18 0.485)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(uuid "16b71e23-859c-4e16-8af1-5d30a5c2b726")
 	)
 	(pad "3" smd roundrect
 		(at 0 0.91)
 		(size 0.18 0.485)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(uuid "6a8a1901-a3c7-470d-99d9-02146451972b")
 	)
 	(pad "4" smd roundrect
 		(at 0 -0.91)
 		(size 0.18 0.485)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(uuid "834d0192-2f8f-45da-a664-ea874d4070f9")
 	)
 	(pad "5" smd roundrect
 		(at 0.35 0.91)
 		(size 0.18 0.485)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(uuid "1b80aaa4-9cfe-448e-8ff1-d2c69f706b2e")
 	)
 	(pad "6" smd roundrect
 		(at 0.35 -0.91)
 		(size 0.18 0.485)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(uuid "6dda73be-73a3-4bdf-aea3-f2d520a51491")
 	)
 	(pad "MP1" smd roundrect
 		(at -0.725 0.765)
 		(size 0.23 0.535)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(uuid "c1e78faf-25fc-46b6-b4c5-f5cb445c8db9")
 	)
 	(pad "MP2" smd roundrect
 		(at -0.725 -0.765)
 		(size 0.23 0.535)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(uuid "31f8ed65-f1fb-4ea1-b8ac-285bac028b77")
 	)
 	(pad "MP3" smd roundrect
 		(at 0.725 0.765)
 		(size 0.23 0.535)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(uuid "06c9fff9-d234-4acc-8340-4f6ddcba6a9a")
 	)
 	(pad "MP4" smd roundrect
 		(at 0.725 -0.765)
 		(size 0.23 0.535)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(uuid "890d9893-7e60-484a-abe1-7afea6fa8e4b")
 	)
@@ -185,6 +175,10 @@
 			(pads not_allowed)
 			(copperpour allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -214,6 +208,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -241,6 +239,10 @@
 			(pads not_allowed)
 			(copperpour allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -270,6 +272,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -297,6 +303,10 @@
 			(pads not_allowed)
 			(copperpour allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -326,6 +336,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -353,6 +367,10 @@
 			(pads not_allowed)
 			(copperpour allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -383,6 +401,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -394,6 +416,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "${JONNEW_3DMODEL_DIR}/MOLEX_5050700622.STEP"
 		(offset
 			(xyz 0 0 0)

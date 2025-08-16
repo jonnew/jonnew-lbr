@@ -1,4 +1,4 @@
-(footprint "MICROCHIP_VFLGA4-2.0x1.6"
+(footprint "MICROCHIP_VFLGA4-2.0x1.6_1"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "MICROCHIP_VFLGA4-2.0x1.6"
+	(property "Value" "MICROCHIP_VFLGA4-2.0x1.6_1"
 		(at 0 2.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5ce3a1c7-0966-454d-8ec7-87c4be4a38ae")
+		(uuid "a0d87904-f47f-4c09-82cf-9e98582b90be")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9d20cf3e-7fb0-4214-9ae8-4ab9b7a247c1")
+		(uuid "efbd2af3-9954-4539-bb1f-b32d06ce2d61")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -202,7 +202,7 @@
 		(uuid "8eab4204-a43b-4c93-aa3a-04243fcf1948")
 	)
 	(embedded_fonts no)
-	(model "${JONNEW_3DMODEL_DIR}/MICROCHIP_VFLGA4-2.0x1.6.STEP"
+	(model "${JONNEW_KICAD_LIB_DIR}/models/MICROCHIP_VFLGA4-2.0x1.6.STEP"
 		(offset
 			(xyz 0 0 0.02)
 		)

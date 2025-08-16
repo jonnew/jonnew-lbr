@@ -1,7 +1,7 @@
 (footprint "OSRAM_SFH2400FA-Tight"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4.1 0)
@@ -16,25 +16,13 @@
 		)
 	)
 	(property "Value" "OSRAM_SFH2400FA-Tight"
-		(at 0 1 0)
+		(at 0 3.95 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "d53add04-c5d6-44c0-8587-bbabc6f5b04a")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "685e0b2d-8321-45ee-84c1-c419655064ed")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -104,16 +92,85 @@
 		(layer "F.SilkS")
 		(uuid "178c0817-b808-40f8-ac85-3f5975c90dc6")
 	)
-	(fp_rect
-		(start -1.3 -2.7)
+	(fp_line
+		(start -1.3 -1.65)
+		(end -0.75 -1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e3f71f1-fd47-4779-bac0-2f65a6f602b4")
+	)
+	(fp_line
+		(start -1.3 2.8)
+		(end -1.3 -1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "401c4dff-dc94-46f9-8e5a-903521ee6a0a")
+	)
+	(fp_line
+		(start -0.75 -2.7)
+		(end 0.75 -2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a60673d3-1ed3-40ff-8b38-4995521eeb64")
+	)
+	(fp_line
+		(start -0.75 -1.65)
+		(end -0.75 -2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "95cf1c6b-5030-4ad7-b30b-89c3b86ea9b6")
+	)
+	(fp_line
+		(start 0.75 -2.7)
+		(end 0.75 -1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6c4ba915-0bda-43dc-891a-fba03f26466c")
+	)
+	(fp_line
+		(start 0.75 -1.65)
+		(end 1.3 -1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e09ce77-ae77-45ae-9f4f-b5a5c0a17f53")
+	)
+	(fp_line
+		(start 1.3 -1.65)
 		(end 1.3 2.8)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
-		(fill none)
 		(layer "F.CrtYd")
-		(uuid "82561e10-78d8-41c6-a6bd-80b8c054bb38")
+		(uuid "82ba7c6c-6d44-4964-864f-3c2736bb31c8")
+	)
+	(fp_line
+		(start 1.3 2.8)
+		(end -1.3 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "24551809-8ff1-4a2a-973c-c5ae3a3f6453")
 	)
 	(fp_rect
 		(start -1 -1.3)
@@ -122,26 +179,26 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f84ed925-704d-4970-b817-bee827272d7e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "849e69b3-1895-496e-9dad-46b983ec39cd")
+		(uuid "2e2a7b27-5fbe-4987-b7ca-f4a95f20c053")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.25 0.25)
+				(thickness 0.04)
 			)
 		)
 	)
 	(pad "1" smd roundrect
 		(at 0 -2.05)
 		(size 1.2 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(solder_paste_margin -0.05)
 		(uuid "daf67cc5-b213-4f7d-b08e-242bf80d96f1")
@@ -149,7 +206,7 @@
 	(pad "2" smd roundrect
 		(at -0.65 2.1)
 		(size 0.85 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(solder_paste_margin -0.05)
 		(uuid "57e21663-e760-433c-a748-10b87c864b83")
@@ -157,12 +214,13 @@
 	(pad "3" smd roundrect
 		(at 0.65 2.1)
 		(size 0.85 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(solder_paste_margin -0.05)
 		(uuid "23f5c28a-e4fe-4464-a946-cb6da8923582")
 	)
-	(model "${JONNEW_KICAD_LIB_DIR}/models/OSRAM_SFH2400FA.STEP"
+	(embedded_fonts no)
+	(model "${JONNEW_3DMODEL_DIR}/OSRAM_SFH2400FA.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
