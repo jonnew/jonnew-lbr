@@ -1,5 +1,5 @@
 (footprint "SAMTEC_FOLC-110-01-S-Q"
-	(version 20241129)
+	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
@@ -15,24 +15,12 @@
 		)
 	)
 	(property "Value" "SAMTEC_FOLC-110-01-S-Q"
-		(at 6.365 4.425 0)
+		(at 0 4.4 0)
 		(layer "F.Fab")
 		(uuid "25d545dc-8f50-4573-922c-35ef5a2a3a19")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6db61765-5b1e-465d-908a-960efaae9256")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)

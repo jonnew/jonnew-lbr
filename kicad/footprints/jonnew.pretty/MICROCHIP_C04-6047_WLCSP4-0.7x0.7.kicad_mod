@@ -1,5 +1,5 @@
 (footprint "MICROCHIP_C04-6047_WLCSP4-0.7x0.7"
-	(version 20241129)
+	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5fc7ea40-6a7d-4256-9201-6652b6240f66")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -111,25 +99,25 @@
 	)
 	(pad "A1" smd circle
 		(at -0.2 -0.2)
-		(size 0.18 0.18)
+		(size 0.163 0.163)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3e106ce8-eb2e-4fa5-a233-61729d7ba69b")
 	)
 	(pad "A2" smd circle
 		(at 0.2 -0.2)
-		(size 0.18 0.18)
+		(size 0.163 0.163)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "169af422-4685-4ea6-85d4-0a7bc9a554bf")
 	)
 	(pad "B1" smd circle
 		(at -0.2 0.2)
-		(size 0.18 0.18)
+		(size 0.163 0.163)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "73ef69ee-4883-4d76-9546-3285f56cc425")
 	)
 	(pad "B2" smd circle
 		(at 0.2 0.2)
-		(size 0.18 0.18)
+		(size 0.163 0.163)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "785bc5a5-a994-440b-98d8-30374fd927e5")
 	)
