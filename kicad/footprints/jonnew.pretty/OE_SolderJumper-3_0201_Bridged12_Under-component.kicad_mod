@@ -1,0 +1,102 @@
+(footprint "OE_SolderJumper-3_0201_Bridged12_Under-component"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Solder Jumper, 0201, 0.12mm gap")
+	(tags "net tie solder jumper bridged")
+	(property "Reference" "REF**"
+		(at 0 -1.2 0)
+		(layer "F.SilkS")
+		(uuid "38cf5263-db92-48aa-b3ff-1f600d01f771")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OE_SolderJumper-3_0201_Bridged12_Under-component"
+		(at 0 1.15 0)
+		(layer "F.Fab")
+		(uuid "d2026d3a-086e-4a53-8ab1-d3bc1760ee80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f52c951-0406-47f8-9162-7b1b26ea5e15")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9d28df2-6e15-4aad-a111-d4b5ea039771")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(net_tie_pad_groups "1, 2")
+	(fp_poly
+		(pts
+			(xy -0.35 -0.05) (xy -0.13 -0.05) (xy -0.13 0.05) (xy -0.35 0.05)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "b4e6e036-2a33-489b-af00-fcb6b7362ba5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.03 0 0)
+		(layer "F.Fab")
+		(uuid "91d8d43c-966c-42c7-9e52-422e510a7138")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at -0.35 0)
+		(size 0.1 0.1)
+		(layers "F.Cu")
+		(zone_connect 2)
+		(uuid "09606f33-c850-4b2a-a25d-7398d8c6f03d")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask")
+		(uuid "58007b4e-27aa-40a9-ae58-153a42298958")
+	)
+	(pad "3" smd roundrect
+		(at 0.43 0)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.3)
+		(chamfer_ratio 0)
+		(chamfer top_left bottom_left)
+		(uuid "01c15f13-6f21-447e-a035-e7413184d61c")
+	)
+	(embedded_fonts no)
+)
