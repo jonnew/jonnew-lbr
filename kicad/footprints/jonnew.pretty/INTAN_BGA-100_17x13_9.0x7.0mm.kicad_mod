@@ -262,6 +262,18 @@
 		(layer "F.Fab")
 		(uuid "f879c0e8-5893-4eb4-8e59-2292a632100f")
 	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "751236ff-8dd8-4536-b2d7-4f512030e4fc")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
 	(pad "A1" smd circle
 		(at -4 -3)
 		(size 0.25 0.25)
